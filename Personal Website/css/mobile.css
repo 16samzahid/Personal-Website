@@ -1,0 +1,23 @@
+/* mobile.css */
+
+/* Increase specificity to override project.css */
+header {
+    position: static;
+    flex-direction: column /* Stack items vertically */;
+    padding: 2%; /* Increase padding */
+}
+
+.logo {
+    margin: 0; /* Remove margin */
+    margin-bottom: 2%; /* Add margin-bottom */
+    text-align: center; /* Center align */
+}
+
+nav {
+    text-align: center; /* Center align */
+}
+
+nav a {
+    display: block; /* Display links as block elements */
+    margin: 0.5rem 0; /* Add margin between links */
+}

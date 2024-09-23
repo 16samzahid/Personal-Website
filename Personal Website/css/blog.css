@@ -1,0 +1,31 @@
+@import url('project.css');
+
+
+
+/*styling for the login and posts buttons */
+.buttons-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.buttons-box a, main a{
+    font-weight: 600;
+    color: #d1d7e0;
+    padding: 1.5rem 3rem;
+    background-color: transparent;
+    border: 2px solid #802bb1;
+    border-radius: 10px;
+    margin: 0 2rem;
+}
+
+.buttons-box a:hover, main a:hover{
+    color: white;
+    background-color: #564f6f;
+    border: 2px solid #802bb1;
+    transition: .2s;
+}
+
+
+

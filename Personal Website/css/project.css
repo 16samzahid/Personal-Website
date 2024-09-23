@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    color: #d1d7e0;
+    background-color: #2d283e;
+}
+
+
+/* Main Home Page*/
+#main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header */
+header {
+    /* position: sticky; */
+    top: 0;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242031;
+    border: 1pt solid black;
+}
+
+
+header a:hover{
+    text-shadow: 0 0 10px rgba(128, 43, 177, 0.9), 
+    0 0 15px rgba(128, 43, 177, 0.9), 
+    0 0 25px rgba(128, 43, 177, 0.9);
+    transition: .3s;
+}
+
+/*styling for SZ logo in top left */
+.logo {
+    margin-left: 20%;
+    font-family: "Indie Flower", cursive;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #802bb1;
+}
+
+/* Navigation styling for top left */
+nav a{
+    margin-left: 2rem;
+    color: rgb(233, 233, 233);
+}
+
+
+
+/* styling for when hovering (make it glow)*/
+nav a:hover{
+    color: white;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 
+    0 0 10px rgba(255, 255, 255, 0.7), 
+    0 0 15px rgba(255, 255, 255, 0.7);
+    transition: .3s;
+} /* horizontal offset, vertical offset, blur, color 
+    There are three shadows to create a more gradual glowing effect*/
+
+/*nav a:hover{
+    transition: 0s;
+    border: 2pt solid #802bb1;
+}*/
+
+/*styling for the active page */
+#active{
+    text-shadow: 0 0 5px rgb(128, 121, 154),
+    0 0 10px rgb(128, 121, 154),
+    0 0 15px rgb(128, 121, 154);
+}
+
+/* Home */
+.home{
+    padding: 0 10%;
+}
+
+.home-content{
+    padding: 2%;;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-content h1{
+    font-size: 5rem;
+    font-weight: bolder;
+    margin: 2% 0;
+}
+
+.home-content span{
+    color: #802bb1;
+}
+
+.home-content span:hover{
+    transition: .3s;
+    cursor: none; /*cursor will disappear when hovered over*/
+    color: transparent;
+    -webkit-text-stroke: .7px #802bb1; /*when hovered over, the text will have a purple outline*/
+}
+
+.home-content h3{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 2% 0;
+}
+
+.home-content p{
+    margin: 2% 0;
+}
+
+/*styling for the footer */
+footer{
+    background-color: rgba(0, 0, 0, 0.168);
+    margin-bottom: 0%;
+}
+
+footer contacts{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer contacts a:hover{
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 
+    0 0 10px rgba(255, 255, 255, 0.7), 
+    0 0 15px rgba(255, 255, 255, 0.7);
+    transition: .3s;
+}

@@ -1,0 +1,19 @@
+@import url('project.css');
+
+.about{
+    padding: 0 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.about-content h1{
+    font-size: 5rem;
+    font-weight: bolder;
+    margin: 2% 0;
+}
+
+#image-container{
+    border-radius: 30%;
+    filter: drop-shadow(0 0 5px #802bb1);
+}

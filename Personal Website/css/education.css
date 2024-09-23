@@ -1,0 +1,43 @@
+@import url('project.css');
+
+article{
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: .6rem;
+}
+
+article h3{
+    font-size: 1rem;
+    font-weight: bolder;
+    margin: 2% 0;
+}
+
+.school-box{
+    border-left: .2rem solid #802bb1;
+    /*position: relative;*/
+    padding-left: 2rem; /*padding for the schools that will keep the
+                        purple line away from the content*/
+}
+
+.school{
+    padding: 1.2rem;
+    border: .15rem solid #802bb1;
+    border-radius: .6rem;
+    margin-bottom: 1rem;
+}
+
+.year{
+    font-size: 1.2rem;
+    color: #802bb1;
+    padding-bottom: .2rem;
+}
+
+i{
+    padding-right: .5rem;
+}
+p{
+    padding-top: .2rem;
+}
+

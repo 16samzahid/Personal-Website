@@ -1,0 +1,35 @@
+@import url('project.css');
+
+
+#skills{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 4rem;
+}
+
+.skills-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-box{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.skill{
+    text-align: center;
+    margin-top: .5rem;
+    padding: 1.2rem 3rem;
+    border: .15rem solid #802bb1;
+    border-radius: .6rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 2rem;
+    margin-left: 1rem;
+}
+

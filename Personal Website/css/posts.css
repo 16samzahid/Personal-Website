@@ -1,0 +1,16 @@
+.post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.post h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.post .date {
+    text-align: right;
+    font-style: italic;
+    color: #ffffff;
+}
